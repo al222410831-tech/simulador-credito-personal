@@ -10,7 +10,11 @@
   <div class="container">
     <h1>Simulador de Crédito Personal Banco MDJA</h1>
     <form id="credit-form">
-      <label for="monto">Monto del Crédito Solicitado  ($):</label>
+      <!-- Campo para solicitar el nombre del cliente -->
+      <label for="nombre">Nombre del Cliente:</label>
+      <input type="text" id="nombre" placeholder="Ej. Mario Daniel" required>
+
+      <label for="monto">Monto del Crédito Solicitado ($):</label>
       <input type="number" id="monto" value="150000" required>
       
       <label for="tasa">Tasa de Interés Anual Ordinaria (%):</label>
@@ -26,6 +30,9 @@
 
       <button type="button" id="btn-calcular">Calcular Amortización</button>
     </form>
+
+    <!-- Saludo personalizado dinámico -->
+    <h2 id="mensaje-cliente" style="text-align: center; color: #003673;"></h2>
 
     <!-- Tabla para renderizar los resultados de amortización -->
     <table id="tabla-amortizacion">

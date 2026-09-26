@@ -2,7 +2,7 @@ CSS
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f0f4f8;
-  color: #333;
+  color: #f30000;
   padding: 30px;
 }
 
@@ -12,11 +12,11 @@ body {
   margin: 0 auto;
   padding: 30px;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 12px rgba(73, 36, 36, 0.08);
 }
 
 h1 {
-  color: #003b73;
+  color: #007300;
   text-align: center;
   margin-bottom: 25px;
 }
@@ -43,7 +43,7 @@ input, select, button {
 
 button {
   grid-column: span 2;
-  background-color: #003b73;
+  background-color: #730000;
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -52,7 +52,7 @@ button {
 }
 
 button:hover {
-  background-color: #002850;
+  background-color: #485000;
 }
 
 /* Estilos de la tabla de amortización */
@@ -70,7 +70,7 @@ th, td {
 }
 
 th {
-  background-color: #003b73;
+  background-color: #730043;
   color: white;
   text-align: center;
 }
